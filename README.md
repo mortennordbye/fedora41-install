@@ -36,6 +36,7 @@
 - Software (GNOME Software)
 - Clocks (GNOME Clocks)
 - kubernetes-client
+- Flatseal
 
 ## GNOME Extensions
 - Pop Shell
