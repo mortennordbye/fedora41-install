@@ -35,6 +35,7 @@
 - Tweaks (GNOME Tweaks)
 - Software (GNOME Software)
 - Clocks (GNOME Clocks)
+- kubernetes-client
 
 ## GNOME Extensions
 - Pop Shell
