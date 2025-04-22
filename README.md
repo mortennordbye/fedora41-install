@@ -37,6 +37,7 @@
 - Clocks (GNOME Clocks)
 - kubernetes-client
 - Flatseal
+- bw(https://bitwarden.com/download/#downloads-command-line-interface)
 
 ## GNOME Extensions
 - Pop Shell
