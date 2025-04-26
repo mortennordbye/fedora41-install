@@ -38,6 +38,7 @@
 - kubernetes-client
 - Flatseal
 - bw(https://bitwarden.com/download/#downloads-command-line-interface)
+- zsh
 
 ## GNOME Extensions
 - Pop Shell
