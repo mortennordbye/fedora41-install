@@ -29,7 +29,6 @@
 - Firefox
 - Disk Usage Analyzer (Baobab)
 - Document Scanner (Simple Scan)
-- Terminator
 - GRUB Customizer
 - VLC Media Player (VLC)
 - Tweaks (GNOME Tweaks)
@@ -39,6 +38,8 @@
 - Flatseal
 - bw(https://bitwarden.com/download/#downloads-command-line-interface)
 - zsh
+- autojump-zsh
+- alacritty
 
 ## GNOME Extensions
 - Pop Shell
