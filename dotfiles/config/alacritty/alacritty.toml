@@ -1,21 +1,38 @@
+[font]
+size = 12.0
+
 [font.normal]
 family = "Hack Nerd Font"
 style  = "Regular"
 
-[font]
-size = 12.0
-
 [window]
 # hide the title bar
 decorations = "none"
+opacity     = 0.92
 
 [scrolling]
-# same as scrollback_lines = 1000
-history = 1000
+history    = 10_000      # lines kept in scrollback
+multiplier = 3           # integer u8, not a float
+
+[mouse]
+hide_when_typing = true
 
 [selection]
-# copy on select
-save_to_clipboard = true
+save_to_clipboard     = true
+semantic_escape_chars = "││:\"' ()[]{}<>"
+
+[cursor]
+blink_interval = 800     # ms between blinks
+blink_timeout  = 0       # 0 = never stop
+thickness      = 0.15    # relative to cell width
+
+[cursor.style]
+shape    = "Beam"        # Block | Underline | Beam
+blinking = "Always"      # Never | Off | On | Always
+
+[terminal.shell]
+program = "/usr/bin/zsh"
+args    = ["-l"]
 
 [colors.primary]
 background = "#2E3440"
@@ -23,20 +40,20 @@ foreground = "#D8DEE9"
 
 [colors.normal]
 black   = "#3B4252"
-red     = "#BF616A"
-green   = "#A3BE8C"
-yellow  = "#EBCB8B"
 blue    = "#81A1C1"
-magenta = "#B48EAD"
 cyan    = "#88C0D0"
+green   = "#A3BE8C"
+magenta = "#B48EAD"
+red     = "#BF616A"
 white   = "#E5E9F0"
+yellow  = "#EBCB8B"
 
 [colors.bright]
 black   = "#4C566A"
-red     = "#BF616A"
-green   = "#A3BE8C"
-yellow  = "#EBCB8B"
 blue    = "#81A1C1"
-magenta = "#B48EAD"
 cyan    = "#8FBCBB"
+green   = "#A3BE8C"
+magenta = "#B48EAD"
+red     = "#BF616A"
 white   = "#ECEFF4"
+yellow  = "#EBCB8B"
