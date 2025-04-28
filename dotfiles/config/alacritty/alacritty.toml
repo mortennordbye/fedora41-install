@@ -1,3 +1,6 @@
+[env]
+TERM = "xterm-256color"
+
 [font]
 size = 12.0
 
@@ -29,10 +32,6 @@ thickness      = 0.15    # relative to cell width
 [cursor.style]
 shape    = "Beam"        # Block | Underline | Beam
 blinking = "Always"      # Never | Off | On | Always
-
-[terminal.shell]
-program = "/usr/bin/zsh"
-args    = ["-l"]
 
 [colors.primary]
 background = "#2E3440"
