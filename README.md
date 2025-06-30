@@ -40,6 +40,7 @@
 - zsh
 - autojump-zsh
 - alacritty
+- nodejs
 
 ## GNOME Extensions
 - Pop Shell
