@@ -107,4 +107,10 @@ sudo unzip Hack.zip
 sudo rm Hack.zip LICENSE.md README.md
 sudo fc-cache -fv
 
+
+
 ## 10. Copy Dotfiles
+
+## change shell(You how to sign out and then inn again)
+
+chsh -s /usr/bin/zsh
