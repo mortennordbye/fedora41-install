@@ -52,7 +52,7 @@ Add the Microsoft VS Code repository:
 ## Install Common Packages
 
 ```bash
-sudo dnf install -y code libreoffice-calc libreoffice-impress libreoffice-writer libreoffice-core thunderbird flameshot remmina htop timeshift gnome-disk-utility gnome-system-monitor gnome-control-center gnome-text-editor evince nautilus firefox baobab simple-scan vlc gnome-tweaks gnome-software gnome-clocks kubernetes-client zsh autojump-zsh alacritty nodejs gnome-extensions-app gnome-extensions thefuck vim nfs-utils
+sudo dnf install -y code libreoffice-calc libreoffice-impress libreoffice-writer libreoffice-core thunderbird flameshot remmina htop timeshift gnome-disk-utility gnome-system-monitor gnome-control-center gnome-text-editor evince nautilus firefox baobab simple-scan vlc gnome-tweaks gnome-software gnome-clocks kubernetes-client zsh autojump-zsh alacritty nodejs gnome-extensions-app gnome-extensions thefuck vim nfs-utils papirus-icon-theme
 ```
 
 ---
